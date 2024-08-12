@@ -14,9 +14,9 @@
 
 .hero{
     background-image: url('../../img/background-image.png');
-    background-position: calc((100% - -10%)/2);
+    background-position: 100% 150%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 65%;
     margin-block-end: 27px;
     position: relative;
 }
