@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Verdana';
+    src: url('Verdana-Bold.eot');
+    src: local('Verdana Bold'), local('Verdana-Bold'),
+        url('Verdana-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Verdana-Bold.woff2') format('woff2'),
+        url('Verdana-Bold.woff') format('woff'),
+        url('Verdana-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Medium.eot');
+    src: local('Montserrat Medium'), local('Montserrat-Medium'),
+        url('Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff'),
+        url('Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}

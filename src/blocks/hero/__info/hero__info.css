@@ -1,0 +1,10 @@
+.hero__info{
+    color: #7c8ca2;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    max-inline-size: 875px;
+    margin-block-end: 90px;
+}

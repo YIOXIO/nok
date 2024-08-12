@@ -4,11 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Эко</title>
+    <title>НКО</title>
 </head>
 
-<body>
+<body class="root">
+<header class="header">
+    <div class="container">
+        <nav class="header__nav">
+            <article class="header__container">
+                <ul class="header__nav-list header__nav-list_grid">
+                    <li>
+                            <a class="header__nav-link" href="/">
+                                <img class="header__logo" src="<%=require('./img/logos/mon-logo.png')%>" alt="">
+                            </a>
+                    </li>
+                    <li>
+                        <a class="header__nav-link" href="/">
+                            <img class="header__logo header__logo_mon" src="<%=require('./img/logos/mon-logo.svg')%>" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header__nav-link_bold" href="/">Независима <br> оценка <br> компетенций </a>
+                    </li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div> 
+                    <div class="burger-line"></div>
+                  </div>                      
+                <ul class="header__nav-list side-navbar">
+                    <li>
+                        <a href="#" class="primary-button hero__button ">Зарегистрироваться</a>        
+                    </li>
+                </ul>
+            </article>
+        </nav>
+    </div>
 
+</header>
+<main class="main">
+    <section class="hero ">
+        <div class="container">
+            <article class="hero__container">
+                <div class="hero__flex">
+                        <h1 class="hero__title">От компетенций работников — к командному результату!</h1>
+
+                </div>
+      
+                <p class="hero__info">НОК проводится для работников,
+                    ответственных за осуществление 
+                    финансово-экономической деятельности в образовательных и научных организациях, подведомственных Министерству науки и высшего образования Российской Федерации</p>
+                <article class="hero__wrapper">
+                <a href="#" class="primary-button hero__button ">Зарегистрироваться</a>        
+                </article>
+                    <ul class="hero__list">
+                        <li class="">
+                            <h3 class="hero__list-header">Оператор:</h3>
+                            <img class="hero__logo" src="<%=require('./img/logos/logo-reu.png')%>" alt="">
+                        </li>
+                        <li class="">
+                            <h3 class="hero__list-header">Организатор:</h3>
+                            <img class="hero__logo " src="<%=require('./img/logos/mon-logo.png')%>" alt="">
+                        </li>
+                   
+                    </ul>
+
+            </article>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+
+</footer>
 </body>
 
 </html>

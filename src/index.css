@@ -1,0 +1,17 @@
+@import './vendor/normalize.css';
+@import './vendor/global.css';
+@import './vendor/fonts/fonts.css';
+@import './blocks/container/container.css';
+@import './blocks/header/header.css';
+@import './blocks/primary-button/primary-button.css';
+@import './blocks/hero/hero.css';
+
+
+.root{
+    font-family: "Verdana", sans-serif;;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #FFF;
+    overflow-x: hidden;
+    position: relative;
+}

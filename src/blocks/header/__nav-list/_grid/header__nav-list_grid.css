@@ -1,0 +1,5 @@
+.header__nav-list_grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:0;
+}
