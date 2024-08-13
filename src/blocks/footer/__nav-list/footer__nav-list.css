@@ -1,0 +1,19 @@
+.footer__nav-list{
+    display: flex;
+    border-block-end: 2px solid #D7E2EB;;
+    display: flex;
+    gap: 22px;
+    margin-block-end: 20px;
+    padding-block-start: 50px;
+    padding-block-end: 20px;
+}
+
+.footer__nav-list>li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer__nav-list>li:nth-child(2) .footer__logo{
+    max-inline-size: 45px;
+}

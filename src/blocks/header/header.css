@@ -8,7 +8,9 @@
 @import './__logo/_mon/header__logo_mon.css';
 
 .header{
-    margin-block-end: 60px;
     position: relative;
     min-block-size: 100px;
+    border-bottom: 1px solid #D7E2EB;
+    background: #F8FAFC;
+    box-shadow: 0px 4px 11px 0px rgba(162, 171, 181, 0.25);
 }

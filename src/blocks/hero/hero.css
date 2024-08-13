@@ -14,11 +14,18 @@
 
 .hero{
     background-image: url('../../img/background-image.png');
-    background-position: 100% 150%;
+    background-position: 100%  64%;
     background-repeat: no-repeat;
-    background-size: 65%;
-    margin-block-end: 27px;
+    background-size: clamp(75rem, 76.5rem + -7.5vw, 67.5rem);
+    margin-block-end: 167px;
     position: relative;
+    padding-block-start: clamp(3.75rem, 2.412rem + 6.688vw, 10.438rem);
+    padding-inline-end: clamp(0rem, -0.25rem + 1.25vw, 1.25rem);
 }
 
 
+@media (width <=1024px){
+    .hero{
+        background-position: bottom;
+    }
+}

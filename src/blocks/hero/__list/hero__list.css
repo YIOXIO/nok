@@ -1,15 +1,16 @@
 .hero__list{
     display: grid;
-    gap: 24px;
+    gap: clamp(0.625rem, 0.075rem + 2.75vw, 3.375rem);
     grid-template-columns: repeat(auto-fit, minmax(250px, 354px));
     margin-block-start: 24px;
 }
 
 .hero__list > li{
     display: flex;
-    gap: 18px;
+    gap: 24px;
     align-items: center;
     flex-direction: row;
     padding-block:8px ;   
     inline-size: 100%;
 }
+

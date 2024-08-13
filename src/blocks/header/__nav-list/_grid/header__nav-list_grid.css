@@ -3,3 +3,7 @@
     flex-wrap: wrap;
     gap:0;
 }
+
+.header__nav-list_grid li:nth-child(1){
+    margin-inline-end: 17px;
+}

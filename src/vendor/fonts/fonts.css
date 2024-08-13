@@ -6,7 +6,7 @@
         url('Verdana-Bold.woff2') format('woff2'),
         url('Verdana-Bold.woff') format('woff'),
         url('Verdana-Bold.ttf') format('truetype');
-    font-weight: bold;
+    font-weight: 700;
     font-style: normal;
 }
 

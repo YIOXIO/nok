@@ -1,10 +1,13 @@
-.header__nav-link_bold{
+
+.footer__nav-link{
     color: #28337c;
-    font-size: clamp(0.506rem, 0.454rem + 0.263vw, 0.769rem);
+    font-size: 7px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.3;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+
 }

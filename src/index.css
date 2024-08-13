@@ -5,13 +5,17 @@
 @import './blocks/header/header.css';
 @import './blocks/primary-button/primary-button.css';
 @import './blocks/hero/hero.css';
+@import './blocks/burger-menu/burger-menu.css';
+@import './blocks/footer/footer.css';
 
 
-.root{
-    font-family: "Verdana", sans-serif;;
+.root {
+    font-family: 'Verdana';
     font-weight: normal;
     font-style: normal;
     background-color: #FFF;
     overflow-x: hidden;
     position: relative;
 }
+
+

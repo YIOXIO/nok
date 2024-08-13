@@ -1,0 +1,12 @@
+@import './__logo/footer__logo.css';
+@import './__nav-link/footer__nav-link.css';
+@import './__nav-list/footer__nav-list.css';
+@import './__wrapper/footer__wrapper.css';
+@import './__text/footer__text.css';
+
+.footer{
+    min-block-size: 250px;
+    padding-block: 0 0;
+    background: #F8FAFC;
+    box-shadow: 0px -4px 12px 0px rgba(162, 171, 181, 0.20);
+}
