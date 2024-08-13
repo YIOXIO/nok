@@ -1,0 +1,16 @@
+.choise > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px,1fr));
+    padding-inline: 75px;
+    padding-block: 75px;
+    gap: 25px;
+}
+
+.choise > ul > li > .primary-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choise > ul > li {
+    display: contents;       
+}

@@ -7,6 +7,8 @@
 @import './blocks/hero/hero.css';
 @import './blocks/burger-menu/burger-menu.css';
 @import './blocks/footer/footer.css';
+@import './blocks/popup/popup.css';
+@import './blocks/choise/chosie.css';
 
 
 .root {
